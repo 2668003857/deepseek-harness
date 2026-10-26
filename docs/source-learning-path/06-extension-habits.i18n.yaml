@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 06-extension-habits.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/source-learning-path/06-extension-habits.md
+/phase-6-extension-habits:
+  en: b599dc19749c87d8
+  zh: 06b5c501f0dacba8
+/phase-6-extension-habits/read:
+  en: 80bc38a0ad37e9fa
+  zh: b9716b59435ed404
+/phase-6-extension-habits/do:
+  en: 842f725f6f7da6e7
+  zh: 7060ff66c5415711
+/phase-6-extension-habits/worked-mini-extension-tool-result-logger-overlay:
+  en: 2af19deb28eb3e15
+  zh: a5c0c1277eddf539
+/phase-6-extension-habits/pass-criteria:
+  en: 4cb9313e636d29af
+  zh: 514ab0f1fc6bb9d9
+/phase-6-extension-habits/next:
+  en: f1848de468a834c0
+  zh: 3e317a90e4413c4f

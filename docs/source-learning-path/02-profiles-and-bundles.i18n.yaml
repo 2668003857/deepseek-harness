@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for 02-profiles-and-bundles.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/source-learning-path/02-profiles-and-bundles.md
+/phase-2-profiles-and-bundles:
+  en: 45b09dcb55355fe7
+  zh: 6bdcd52240d79322
+/phase-2-profiles-and-bundles/read:
+  en: 58a34cbd21065a96
+  zh: 99a10d4e47ca67c9
+/phase-2-profiles-and-bundles/do:
+  en: 4576bb4fbc809024
+  zh: db1e75b9de73a5de
+/phase-2-profiles-and-bundles/worked-composition:
+  en: e62498922b558360
+  zh: 50cfaf28536e745c
+/phase-2-profiles-and-bundles/annotated-dump-config-headless-excerpt:
+  en: a4b606c4963fb563
+  zh: fa3e23971e7a88ee
+/phase-2-profiles-and-bundles/pass-criteria:
+  en: f737ec40c99cdc84
+  zh: 82661e19b0c978eb
+/phase-2-profiles-and-bundles/next:
+  en: 8ac6cefd8d088d03
+  zh: a54977103aa6aed3

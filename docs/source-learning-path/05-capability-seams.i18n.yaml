@@ -1,0 +1,31 @@
+# Bilingual-pair consistency record for 05-capability-seams.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/source-learning-path/05-capability-seams.md
+/phase-5-capability-seams:
+  en: 69efb43890833acf
+  zh: 032da84db13fcdd8
+/phase-5-capability-seams/read:
+  en: 0f16a9b3b4f3e01e
+  zh: 8b5b8dba9332e8a2
+/phase-5-capability-seams/required-sample-1-shell-triad:
+  en: 803c69e300375b36
+  zh: c5b6d5b68acfdde2
+/phase-5-capability-seams/required-sample-2-approval-and-ask-user:
+  en: 6058b818c0361543
+  zh: 01d7edfe847bb364
+/phase-5-capability-seams/required-sample-3-persistence:
+  en: ac416b3eb424c30e
+  zh: b66b314ae31b58f4
+/phase-5-capability-seams/pick-one-optional-line:
+  en: 80473164e3738317
+  zh: 4eb21c76a1179c98
+/phase-5-capability-seams/worked-where-does-x-go-answers:
+  en: 380d6aea7515fcbe
+  zh: 42589d98e9f189ab
+/phase-5-capability-seams/pass-criteria:
+  en: ed2d79eb78772c19
+  zh: a9b022d556e83ec0
+/phase-5-capability-seams/next:
+  en: d9ed147dfb81c081
+  zh: 7a868fb6a4144651

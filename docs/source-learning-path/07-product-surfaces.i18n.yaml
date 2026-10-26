@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for 07-product-surfaces.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/source-learning-path/07-product-surfaces.md
+/phase-7-product-surfaces-optional:
+  en: f0b102511e744eb3
+  zh: 8e894ade309dcb62
+/phase-7-product-surfaces-optional/surface-map:
+  en: 100fe9f58ec6cffa
+  zh: 74b7638cb8eaeab0
+/phase-7-product-surfaces-optional/reading-tips:
+  en: e3f1a6c3f34b76a9
+  zh: 2070546d501360d2
+/phase-7-product-surfaces-optional/pass-criteria:
+  en: 84c5774ead76d330
+  zh: 580d89a4e287fa42
+/phase-7-product-surfaces-optional/back-to-the-spine:
+  en: bbc8fddbbf522138
+  zh: baf068503ad17e83

@@ -293,6 +293,26 @@ const cordisTutorial = pairedPages(([
   ...(file === 'index.md' ? { sourceAliases: ['docs/cordis-tutorial'] } : {}),
 })))
 
+const sourceLearningPath = pairedPages(([
+  ['index.md', '总览', 'Overview'],
+  ['00-repository-map.md', '0. 仓库地图', '0. Repository map'],
+  ['01-cordis.md', '1. Cordis 运行时', '1. Cordis runtime'],
+  ['02-profiles-and-bundles.md', '2. Profile 与 Bundle', '2. Profiles and bundles'],
+  ['03-first-plugin.md', '3. 第一个插件', '3. First Harness plugin'],
+  ['04-one-turn.md', '4. 一次完整 Turn', '4. One turn end to end'],
+  ['05-capability-seams.md', '5. 能力 Seam', '5. Capability seams'],
+  ['06-extension-habits.md', '6. 扩展习惯', '6. Extension habits'],
+  ['07-product-surfaces.md', '7. 产品面', '7. Product surfaces'],
+] as const).map(([file, rootLabel, enLabel], order): PairedPage => ({
+  source: `docs/source-learning-path/${file}`,
+  route: `develop/source-learning-path/${file}`,
+  label: { root: rootLabel, en: enLabel },
+  sidebar: { root: 'zh-develop', en: 'en-develop' },
+  section: { root: '源码学习路径', en: 'Source learning path' },
+  order,
+  ...(file === 'index.md' ? { sourceAliases: ['docs/source-learning-path'] } : {}),
+})))
+
 const cordisPrimerReference = pairedPages([
   {
     source: 'docs/cordis-primer.md',
@@ -495,7 +515,7 @@ export interface DocsSection {
 const sections: Record<DocsLocale, readonly DocsSection[]> = {
   root: [
     { label: '入门' }, { label: 'SDK' }, { label: '自动化' }, { label: '集成' },
-    { label: '基础' }, { label: '框架能力' }, { label: '实战' }, { label: 'Cordis 框架教程' },
+    { label: '基础' }, { label: '框架能力' }, { label: '实战' }, { label: 'Cordis 框架教程' }, { label: '源码学习路径' },
     { label: '概念' }, { label: '生成参考' }, { label: 'Cordis API' }, { label: '开发手册' },
     { label: '总览' },
     { label: '内核与作用域', collapsed: true },
@@ -507,7 +527,7 @@ const sections: Record<DocsLocale, readonly DocsSection[]> = {
   ],
   en: [
     { label: 'Guide' }, { label: 'SDK' }, { label: 'Automation' }, { label: 'Integrations' },
-    { label: 'Basics' }, { label: 'Framework' }, { label: 'Practice' }, { label: 'Cordis framework tutorial' },
+    { label: 'Basics' }, { label: 'Framework' }, { label: 'Practice' }, { label: 'Cordis framework tutorial' }, { label: 'Source learning path' },
     { label: 'Concepts' }, { label: 'Generated reference' }, { label: 'Cordis Core API' }, { label: 'Cookbook' },
     { label: 'Overview' },
     { label: 'Core and scopes', collapsed: true },
@@ -541,6 +561,7 @@ export const docsPages: DocsPage[] = [
   ...homeAndGuide,
   ...develop,
   ...cordisTutorial,
+  ...sourceLearningPath,
   ...cordisPrimerReference,
   ...subsystemsReference,
   ...reference,

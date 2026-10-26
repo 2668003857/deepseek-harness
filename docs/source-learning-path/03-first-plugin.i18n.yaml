@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 03-first-plugin.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/source-learning-path/03-first-plugin.md
+/phase-3-first-harness-plugin:
+  en: c82725646c4196dc
+  zh: fec48e8ff7ad3615
+/phase-3-first-harness-plugin/do-follow-the-tutorials-do-not-only-read:
+  en: f559e0f31540a69d
+  zh: 28e8c64091c7200d
+/phase-3-first-harness-plugin/source-comparison:
+  en: b3724c39e75c6d24
+  zh: 50b27f199eef9844
+/phase-3-first-harness-plugin/worked-minimal-tool-same-shape-as-the-tutorial:
+  en: f9015a54c0f1c611
+  zh: cdaef92690c76adf
+/phase-3-first-harness-plugin/pass-criteria:
+  en: 225f384d46881ac1
+  zh: b52c0011b349db04
+/phase-3-first-harness-plugin/next:
+  en: 12a37b66567e0af0
+  zh: 342a5d93a1fc2167

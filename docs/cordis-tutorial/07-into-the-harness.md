@@ -100,6 +100,7 @@ A real agent is this composition plus more plugins: an LLM adapter, the agent lo
 
 Where to go next:
 
+- [Source learning path](../source-learning-path/index.md) — sequenced reading from profiles through one turn and capability seams.
 - [Build a tool](../user/develop/basic/tool.md) — more of `defineTool`, including presentation and richer schemas.
 - [Three-layer capability design](../user/develop/practice/index.md) — how the harness structures replaceable capabilities.
 - The generated `cordis-surface` regions on the [subsystem pages](../subsystems/core.md) — everything you can inject and listen to, each on its owning page.

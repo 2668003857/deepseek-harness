@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 00-repository-map.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/source-learning-path/00-repository-map.md
+/phase-0-repository-map:
+  en: f976c4bed7e6f61c
+  zh: 420fc878177e0459
+/phase-0-repository-map/read:
+  en: 78092aede500f462
+  zh: 607a2a7715524422
+/phase-0-repository-map/do:
+  en: 7e33f323547e00e6
+  zh: 7aff0e49a61d14c9
+/phase-0-repository-map/worked-package-map:
+  en: ffe0b5aa1040999f
+  zh: 66bb1d5ad8895b9a
+/phase-0-repository-map/pass-criteria:
+  en: dd5e97c1f6433ef6
+  zh: 6065853f9ba99415
+/phase-0-repository-map/next:
+  en: e827848add1e9478
+  zh: e2d6d95c49f0f72d

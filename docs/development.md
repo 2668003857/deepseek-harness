@@ -52,6 +52,8 @@ pnpm run typecheck
 
 Setup is complete when `pnpm run typecheck` exits successfully.
 
+To learn the harness by reading source in order, follow the [source learning path](source-learning-path/index.md).
+
 ## Contributor reference
 
 ### TypeScript project layout

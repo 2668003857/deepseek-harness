@@ -1,0 +1,19 @@
+# Bilingual-pair consistency record for index.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/source-learning-path/index.md
+/source-learning-path:
+  en: 8815ea8402e7305e
+  zh: 0bd9c01b463eeb64
+/source-learning-path/how-to-use-this-path:
+  en: b23143961483e45a
+  zh: 4314de086edaa7fc
+/source-learning-path/chapters:
+  en: e84c9cc5016d9ec6
+  zh: 55293eb70847bffe
+/source-learning-path/daily-reading-habits:
+  en: ed882756639bf092
+  zh: 276186eeb302ca41
+/source-learning-path/progress-checklist:
+  en: 1607b4aa96b7e900
+  zh: a23b0595d4cf3000

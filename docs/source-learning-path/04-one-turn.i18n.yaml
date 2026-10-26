@@ -1,0 +1,28 @@
+# Bilingual-pair consistency record for 04-one-turn.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/source-learning-path/04-one-turn.md
+/phase-4-one-turn-end-to-end:
+  en: 39d7b727c189d6af
+  zh: 4f2d0494f2c7a836
+/phase-4-one-turn-end-to-end/behavior-map:
+  en: 9add7d058fce320b
+  zh: 950c1a1c1f6dbb94
+/phase-4-one-turn-end-to-end/source-reading-order:
+  en: 87d7e24a8041bcf7
+  zh: d00bcd7ff69372d0
+/phase-4-one-turn-end-to-end/worked-turn-sequence:
+  en: 6d46e52afca9652d
+  zh: 456df282dfbc82d5
+/phase-4-one-turn-end-to-end/durable-vs-live-events:
+  en: b24574ed069332dd
+  zh: 9869596a4cf349ad
+/phase-4-one-turn-end-to-end/optional-live-check:
+  en: 2280564bb2d9c014
+  zh: 51939646d20b1e2f
+/phase-4-one-turn-end-to-end/pass-criteria:
+  en: 63f7f73bb3cf2821
+  zh: 5dc6d6755358d5c3
+/phase-4-one-turn-end-to-end/next:
+  en: 784e580ff69d50d0
+  zh: db52d466319e6d8d

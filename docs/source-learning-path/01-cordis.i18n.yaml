@@ -1,0 +1,22 @@
+# Bilingual-pair consistency record for 01-cordis.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/source-learning-path/01-cordis.md
+/phase-1-cordis-runtime:
+  en: d3f752bbb26673e1
+  zh: 3b2068d21aae22d4
+/phase-1-cordis-runtime/read-and-do:
+  en: c09012bf6549d3ca
+  zh: 726d0dbfe03d5929
+/phase-1-cordis-runtime/source-skimming-after-the-tutorial:
+  en: 0f7d4de831cd17ae
+  zh: e0187a7ead4fde4a
+/phase-1-cordis-runtime/three-rules-that-appear-everywhere-later:
+  en: 1a861d0d7595c682
+  zh: cae63fdda876448a
+/phase-1-cordis-runtime/pass-criteria:
+  en: d9f2aba8e09a65b7
+  zh: 198a6d518d928f75
+/phase-1-cordis-runtime/next:
+  en: 115b3159bbd15da4
+  zh: 399d2aded7050790

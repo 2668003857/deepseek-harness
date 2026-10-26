@@ -54,6 +54,8 @@ pnpm run typecheck
 
 `pnpm run typecheck` 成功退出即表示搭建完成。
 
+若要按顺序阅读 harness 源码，请跟随[源码学习路径](source-learning-path/index.zh.md)。
+
 ## 贡献者参考
 
 <a id="typescript-project-layout"></a>
